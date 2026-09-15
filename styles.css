@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.square {
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
